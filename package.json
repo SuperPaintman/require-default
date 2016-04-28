@@ -10,8 +10,8 @@
   },
   "scripts": {
     "lint": "gulp lint",
-    "test": "npm run lint && mocha ./bin/test",
-    "test-ci": "npm run lint && istanbul cover ./node_modules/mocha/bin/_mocha ./bin/test",
+    "test": "npm run lint && mocha ./test",
+    "test-ci": "npm run lint && istanbul cover ./node_modules/mocha/bin/_mocha ./test",
     "prepublish": "npm run lint && npm run test"
   },
   "keywords": [
