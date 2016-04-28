@@ -7,10 +7,10 @@
  * @return {Any}        module
  *
  * @example
- * const m = requireDefault('lib/index.js');
+ * var m = requireDefault('lib/index.js');
  */
 function requireDefault(p) {
-  const m = require(p);
+  var m = require(p);
 
   return m && m.default ? m.default : m;
 }

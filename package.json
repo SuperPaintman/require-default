@@ -1,6 +1,6 @@
 {
   "name": "require-default",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "require from ES2015 export default",
   "main": "index.js",
   "author": {
